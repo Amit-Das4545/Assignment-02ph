@@ -1,7 +1,7 @@
 /* body */
 *{
-    margin: 0;
-    padding: 0;
+    margin:0px;
+    padding:0px;
     box-sizing: border-box;
     }
 .noto-serif-common {
@@ -17,14 +17,19 @@
     align-items: center;
     padding: 20px 60px;
 }
-
+.nav-item-list{
+    list-style-type:none; 
+    /* padding: 10px; */
+    display: flex;
+}
 .nav-item{
     display: flex;
    
 }
 .nav-item li{
     list-style-type:none; 
-    padding: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
     color:#252432;
 }
 .nav-item li:hover{
@@ -40,3 +45,168 @@
 }
 
 /* banner */
+
+.banner{
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+}
+.banner-heading h3{
+    font-weight:bold;
+    font-size: 65px;
+}
+.banner-heading h3 span{
+    color:#E95A08 ;
+    font-weight:bold;
+    font-size: 65px;
+}
+
+.banner-text{
+font-family:"Inter", sans-serif;
+padding: 20px 5px;
+}
+.banner-text p{
+    color: #8987A1 ;
+}
+.banner-img{
+    width: 100%;
+    min-width: 300px;;
+    max-width: 570px;
+    height: auto;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width: 576px){
+
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+        }
+    
+    /* nav-responsive */
+    .nav{
+        padding: 20px 20px;
+        align-items: center;
+    }
+    .nav-item-list{
+        display: none;
+    }
+    .nav-item li{
+        font-size:30px;
+        padding: 10px 20px;
+    
+    }
+
+    /* banner-responsive */
+    .banner{
+        padding: 20px ;
+        align-items: center;
+        flex-direction: column-reverse;
+
+    }
+    .banner-heading h3{
+        font-size: 40px;
+        padding-top: 40px ;
+    }
+    .banner-heading h3 span{
+        font-size: 40px;
+    }
+    .banner-text p{
+        font-size: 20px;
+    }
+    .banner-img{
+     max-width: 100%;
+    }
+    .banner-img img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+
+ 
+
+}
