@@ -1,0 +1,42 @@
+/* body */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.noto-serif-common {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+}
+
+
+/* navbar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.nav-item{
+    display: flex;
+   
+}
+.nav-item li{
+    list-style-type:none; 
+    padding: 10px;
+    color:#252432;
+}
+.nav-item li:hover{
+    color: blue;
+
+}
+.nav-item li span{
+    color: #8987A1;
+   
+}
+.nav-item li span:hover{
+    color: blue;
+}
+
+/* banner */
